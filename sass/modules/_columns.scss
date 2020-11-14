@@ -1,0 +1,73 @@
+.content {
+    align-items: center;
+    background: url(../images/me.jpg) fixed center no-repeat;
+
+    h2 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        letter-spacing: 3px;
+    }
+
+    .small {
+        font-size: 1.8rem;
+        margin-top: 40px;
+    }
+    .column-section {
+        text-align: center;
+    }
+    .column {
+        display: inline-block;
+
+        .column-title {
+            margin: 10px;
+            font-size: 1.5em;
+            
+        }
+    }
+}
+
+.lightbox {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(7, 214, 124, 0.85);
+  /* eventually we'll hide it by default */
+    display: none;
+
+    
+     p {
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+     }
+  }
+
+.close-button {
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    padding-top: 20px;
+    padding: 10px;
+    padding-right:30px;
+    cursor: pointer;
+}
+
+  
+
+.show-lightbox {
+    display: block;
+  }
+
+.column {
+    img {
+        cursor: pointer;
+    }
+
+    img:hover {
+        filter: grayscale(90%);
+    }
+}
+

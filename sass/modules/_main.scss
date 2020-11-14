@@ -1,6 +1,7 @@
 
 body {
     background-color: #07d67c;
+    font-family: 'Lato', sans-serif;
 }
 
 .hidden {
@@ -12,24 +13,12 @@ body {
     display: flex;
     justify-content: center;
 }
-.content {
-    align-items: center;
-    width: 90%;
-    height: 100vh;
-    background: url(../images/me.jpg) fixed center no-repeat;
 
-    h2 {
-        margin-top: 10px;
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-size: 3rem;
-        color: white;
-        letter-spacing: 3px;
-    }
+nav {
+    text-align: center;
 
-    .small {
-        font-size: 1.8rem;
-        margin-top: 40px;
+   li { list-style: none;
+        display: inline-block;
+        margin: 20px 50px;
     }
 }
-

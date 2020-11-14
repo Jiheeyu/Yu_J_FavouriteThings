@@ -7,6 +7,7 @@
         $result = getSingleThing($pdo, $targetID);
 
         return $result;
+
     } else {
         $allThings = getAllThings($pdo);
 

@@ -1,9 +1,8 @@
 .content {
     align-items: center;
-    background: url(../images/me.jpg) fixed center no-repeat;
+    position: relative;
 
     h2 {
-        margin-top: 10px;
         text-align: center;
         font-size: 3rem;
         color: white;
@@ -12,7 +11,7 @@
 
     .small {
         font-size: 1.8rem;
-        margin-top: 40px;
+        margin: 30px 0px;
     }
     .column-section {
         text-align: center;
@@ -21,18 +20,29 @@
         display: inline-block;
 
         .column-title {
-            margin: 10px;
+            margin: 50px;
             font-size: 1.5em;
-            
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+        img:hover {
+            filter: grayscale(90%);
         }
     }
+}
+
+.content:last-child {
+    margin-bottom: 30px;
 }
 
 .lightbox {
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(7, 214, 124, 0.85);
   /* eventually we'll hide it by default */
     display: none;
@@ -41,7 +51,11 @@
      p {
         text-align: center;
         color: white;
-        font-size: 1.5em;
+        font-size: 1.2em;
+        position: fixed;
+        margin: 6em 2em;
+        line-height: 1.5em;
+        letter-spacing: .5px;
      }
   }
 
@@ -53,21 +67,17 @@
     padding: 10px;
     padding-right:30px;
     cursor: pointer;
+    position: fixed;
+    right: 0;
 }
 
   
 
 .show-lightbox {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
-.column {
-    img {
-        cursor: pointer;
-    }
 
-    img:hover {
-        filter: grayscale(90%);
-    }
-}
+    
 

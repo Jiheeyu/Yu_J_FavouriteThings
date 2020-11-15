@@ -1,0 +1,40 @@
+
+
+@media screen and (min-width: 707px) {
+    #container  {
+        background: url(../images/me_mid.jpg) fixed center no-repeat;
+        
+    }
+
+    .lightbox {
+        p {
+            margin: 10em 2em;
+        }
+    }
+
+
+    .column-section {
+        margin-top: 300px;
+    }
+
+
+}
+
+@media screen and (min-width: 1180px) {
+    #container  {
+        background: url(../images/me_big.jpg) fixed center no-repeat;
+        
+    }
+
+    .lightbox {
+        p {
+            margin: 12em;
+        }
+    }
+
+    .column {
+        margin: 0 20px;
+
+        }
+
+}

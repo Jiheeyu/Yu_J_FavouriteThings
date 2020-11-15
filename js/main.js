@@ -10,6 +10,7 @@ import { fetchData } from "./modules/DataMiner.js";
     
 
     function handleDataSet(data) {
+        console.log(data);
         
         let lightbox = document.querySelector(".lightbox");
         let closeButton = lightbox.querySelector(".close-button");

@@ -1,0 +1,23 @@
+
+body {
+    background-color: #07d67c;
+    font-family: 'Lato', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    max-width: 100%;
+    background: url(../images/me.jpg) fixed center no-repeat;
+}
+
+nav {
+    text-align: center;
+
+   li { list-style: none;
+        display: inline-block;
+        margin: 20px 50px;
+    }
+}
